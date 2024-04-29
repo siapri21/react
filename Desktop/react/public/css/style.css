@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rosybrown;
+    /* padding: 5vh; */
+}
+
+#navigation{
+    display: flex;
+   justify-content: end;
+   gap: 20px;
+   padding: 10px 20px;
+}
+
+a{
+    color: #fff;
+}
+
+.logo>img{
+    width: 25%;
+}
+
+#menu_Burger{
+    display: none
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8vh;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    /* background: red; */
+    border: 1px solid black;
+    width: 50vw;
+
+}
+
+.container-image > img{
+  width: 15vw;
+}
+
+.texte{
+    padding: 20px;
+    /* padding-right: 50%; */
+    align-items: center;
+}
+
+@media screen and (max-width:678px){
+    #navigation{
+        display: none;
+        justify-content: flex-start;
+        flex-direction: column;
+        background: red;
+        position: absolute;
+        top: 115px;
+        gap: 15px;
+        width: 20vw;
+        height: 100vh;
+    
+    }
+    #menu_Burger{
+        display: block;
+    }
+
+    #navigation.active{
+        display: block;
+    }
+    
+}
