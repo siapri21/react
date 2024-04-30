@@ -57,6 +57,19 @@ a{
     align-items: center;
 }
 
+/* doto list */
+form{
+    padding: 10px;
+   
+}
+
+.button{
+    background: blue;
+    color: #fff;
+    overflow: hidden;
+}
+
+
 @media screen and (max-width:678px){
     #navigation{
         display: none;
