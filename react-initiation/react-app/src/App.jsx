@@ -5,6 +5,7 @@ import User from './components/user';
 import Avatar from './components/avatar';
 import FullName from './components/fullName';
 import Hobbies from './components/hobbies';
+import EventsBoutton from './components/events';
 
 
 function App (){
@@ -18,6 +19,7 @@ function App (){
   <h1>React Bonjour</h1>
   <Header></Header>
   <User></User>
+  <EventsBoutton></EventsBoutton>
   
   
   </>
