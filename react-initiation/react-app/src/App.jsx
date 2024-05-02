@@ -3,6 +3,8 @@ import Player from './components/player'
 import Header from './components/header'
 import User from './components/user';
 import Avatar from './components/avatar';
+import FullName from './components/fullName';
+import Hobbies from './components/hobbies';
 
 
 function App (){

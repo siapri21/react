@@ -1,3 +1,8 @@
+import Avatar from "./avatar";
+import FullNam from "./fullName";
+import Hobbies from './hobbies';
+import Contact from "./contact";
+
 export default function User(){
     const userFormat ={
         avatar: "/image.jpg",
@@ -34,7 +39,11 @@ export default function User(){
         };
         return(
             <div>
-            User
+
+            <Avatar monLien = {userFormat.avatar}></Avatar>
+            <FullNam full ={userFormat.fullname.fisrtName} nana={userFormat.fullname.lastName}></FullNam>
+            <Hobbies mesHobbies ={userFormat.hobbies}></Hobbies>
+            <Contact mesContact={userFormat.contact.email} monTel={userFormat.contact.tel}></Contact>
         </div>
 
         ) 
