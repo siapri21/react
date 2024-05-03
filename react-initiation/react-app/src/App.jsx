@@ -1,11 +1,16 @@
 import './App.css'
-import Player from './components/player'
-import Header from './components/header'
-import User from './components/user';
-import Avatar from './components/avatar';
-import FullName from './components/fullName';
-import Hobbies from './components/hobbies';
-import EventsBoutton from './components/events';
+// import Player from './components/player'
+// import Header from './components/header'
+// import User from './components/user';
+// import Avatar from './components/avatar';
+// import FullName from './components/fullName';
+// import Hobbies from './components/hobbies';
+// import AfficheNom from './components/afficheNom';
+
+
+// import Menu from './components/menu';
+
+import Formulaire from './components/formulaire';
 
 
 function App (){
@@ -14,26 +19,26 @@ function App (){
 <>
 
 
-<Player></Player>
+{/* <Player></Player> */}
 
-  <h1>React Bonjour</h1>
-  <Header></Header>
-  <User></User>
-  <EventsBoutton></EventsBoutton>
+  {/* <h1>React Bonjour</h1> */}
+
+  <Formulaire></Formulaire>
+  {/* <Header></Header> */}
+  {/* <User></User> */}
+  {/* <EventsBoutton></EventsBoutton> */}
+  {/* <AfficheNom></AfficheNom> */}
+
+  {/* <Menu ></Menu> */}
+
+
   
   
   </>
+
 
   )
 }
 
 
-
-
-
-/* Créer un composant Player.
-Déclarer une constante “score” et lui donner une Valeur aléatoire.
-Avant de retourner le JSX dans le composant Player, Vérifier :
-Si le score est supérieur à 500, afficher ‘vainqueur’ en vert suivi du ‘score’.
-Sinon, afficher ‘Perdant’ en couleur rouge suivi du ‘score’.*/  
 export default App

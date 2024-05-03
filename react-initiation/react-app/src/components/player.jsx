@@ -7,3 +7,9 @@ export default function Player() {
 
     );
 }
+
+/* Créer un composant Player.
+Déclarer une constante “score” et lui donner une Valeur aléatoire.
+Avant de retourner le JSX dans le composant Player, Vérifier :
+Si le score est supérieur à 500, afficher ‘vainqueur’ en vert suivi du ‘score’.
+Sinon, afficher ‘Perdant’ en couleur rouge suivi du ‘score’.*/  
