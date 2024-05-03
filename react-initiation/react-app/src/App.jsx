@@ -10,7 +10,10 @@ import './App.css'
 
 // import Menu from './components/menu';
 
-import Formulaire from './components/formulaire';
+// import Formulaire from './components/formulaire';
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+
+import Navigation from './components/ui/navigation';
 
 
 function App (){
@@ -23,13 +26,15 @@ function App (){
 
   {/* <h1>React Bonjour</h1> */}
 
-  <Formulaire></Formulaire>
+  {/* <Formulaire></Formulaire> */}
   {/* <Header></Header> */}
   {/* <User></User> */}
   {/* <EventsBoutton></EventsBoutton> */}
   {/* <AfficheNom></AfficheNom> */}
 
   {/* <Menu ></Menu> */}
+
+  <Navigation></Navigation>
 
 
   
